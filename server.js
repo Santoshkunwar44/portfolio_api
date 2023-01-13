@@ -4,6 +4,7 @@ const morgan = require("morgan")
 const session = require("express-session")
 require("dotenv").config()
 const cors = require("cors")
+const passport = require("passport")
 const MongoStore = require("connect-mongo")
 
 
